@@ -1,0 +1,18 @@
+Package: mytools
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Matthew",
+           family = "Jones",
+           role = c("aut", "cre"),
+           email = "jones@nceas.ucsb.edu",
+           comment = c(ORCID = "0000-0003-0077-4738"))
+Description: This is my personal tools package for utility methods.
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    devtools
+RoxygenNote: 6.1.1
+Suggests: 
+    testthat (>= 2.1.0)
